@@ -1,0 +1,66 @@
+{
+  "name": "webrtc-project",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "express": "^4.17.1",
+    "freeice": "^2.2.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "5.0.0",
+    "socket.io": "^4.0.0",
+    "socket.io-client": "^4.0.0",
+    "uuid": "^8.3.2",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start:dev-server": "npx nodemon server.js",
+    "start:dev": "react-scripts start",
+    "start": "node server.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "build:server": "tsc --project tsconfig.server.json",
+    "start:prod": "node dist/server.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.0",
+    "@types/node": "^16.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-router-dom": "^5.3.0",
+    "@types/socket.io": "^3.0.0",
+    "@types/socket.io-client": "^3.0.0",
+    "@types/uuid": "^8.3.0",
+    "nodemon": "^2.0.7",
+    "prettier": "^3.5.3",
+    "ts-node": "^10.0.0",
+    "typescript": "^5.8.3"
+  },
+  "resolutions": {
+    "postcss": "^8.4.31"
+  }
+}

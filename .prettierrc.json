@@ -1,0 +1,14 @@
+{
+  "singleQuote": true,
+  "trailingComma": "none",
+  "semi": false,
+  "jsxSingleQuote": true,
+  "overrides": [
+    {
+      "files": ["*.ts", "*.mts"],
+      "options": {
+        "parser": "typescript"
+      }
+    }
+  ]
+}

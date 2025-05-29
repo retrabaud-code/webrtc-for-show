@@ -1,0 +1,8 @@
+# Ignore server files from React linting
+server.js
+
+# Ignore build directory
+build/
+
+# Ignore node_modules
+node_modules/ 
